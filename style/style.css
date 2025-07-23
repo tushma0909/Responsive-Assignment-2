@@ -1,0 +1,78 @@
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.inter-font{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.dark-2{
+    color:#252432;
+    font-weight: 700;
+}
+.dark-1{
+    color: #8987A1;
+}
+.dark-3{
+    color: #000000;
+}
+.orange{
+    color: #E95A08;
+}
+
+/* Header style */
+/* navbar-style */
+.navbar {
+   justify-content: space-between;
+   max-width: 1140px;
+   margin: 0 auto;
+  
+}
+.nav-items{
+   list-style: none;
+   margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.nav-item{
+    gap: 50px;
+}
+/* banner design */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.banner-head h3{
+    font-family: Noto serif;
+    font-size: 40px;
+    font-weight: 700px;
+    padding: 0px;
+}
+.second-head{
+  margin-top: -30px;
+}
+.banner-description{
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 300;
+    color:#8987A1;
+    width: 570px;
+    height: 108px;
+    margin-top: -25px;
+}
+.banner-content{
+    margin-top: 75px;
+    margin-bottom: 0;
+    align-items: left;
+}
+.banner img{
+    width: 570px;
+    height: 355px;
+}
+
