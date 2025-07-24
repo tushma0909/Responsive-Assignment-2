@@ -75,6 +75,24 @@
     width: 570px;
     height: 355px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen  and (max-width:576px) {
     /*navbar responsuive  */
 .hide{
@@ -89,6 +107,28 @@
         width: 63px;
         height: 38px;
     }
+/* banner responsive */
+    .banner-content{
+       margin-top: -10px;
+       margin-left: 16px;
+       margin-right: 16px;
+       margin-bottom: 28px;
+    }
+    .banner img{
+        width: 393px;
+        height: 245px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
 
-    
+    .banner-head h3{
+       font-size: 30px;
+        font-weight: 700px;
+        padding: 0px;
+    }
+    .banner-description{
+        font-size: 15px;
+        width: 100%
+    }
 }
