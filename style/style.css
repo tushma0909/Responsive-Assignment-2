@@ -75,6 +75,73 @@
     width: 570px;
     height: 355px;
 }
+/* plant section style */
+.plants-section{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.Plants-title h3{
+    font-family: Noto serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 16px 126px 16px 126px;
+}
+.Plants-title p{
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 300;
+    color:#8987A1;
+    width: 888px;
+    height: 54px;
+    margin: 16px 126px 16px 126px;
+    text-align: center;
+}
+.Plants-title{
+    text-align: center;
+    justify-content:center;
+    margin-top: 70px;
+    align-items: center;
+}
+.Plants img{
+    width: 270px;
+    height: 323px;
+}
+.Plants-name{
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 700;
+    color: #111111;
+}
+.Plants-subtitle{
+    font-family:inter;
+    font-size: 22px;
+    font-style:500;
+    color: #111111;
+    gap: 30px;
+}
+.btn-primary{
+    background-color: #E95A08;
+    width: 270px;
+    height: 50px;
+    gap: 10px;
+    border: none;
+    font-family: inter;
+    font-size: 16px;
+    color: #ffffff;
+}
+.Plants{
+    height: 500px;
+    gap: 30px;
+ text-align: center;
+}
+.Plants-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 49px;
+}
 
 
 
