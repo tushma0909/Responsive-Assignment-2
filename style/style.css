@@ -201,10 +201,121 @@
     align-items: center;
     gap: 60px;
 }
+/* deal section style */
+.deal-section{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   gap: 16px;
+    margin-bottom: -1000px ;
+}
+.deal-section p{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 300;
+    color:#8987A1;
+    width: 888px;
+    height: 54px;
+    margin-top: -40px;
+  }
+/* Join section style*/
+.join-section{
+    width: 1440px;
+    margin-top: 0 auto;
+}
+.join-content{
+    width: 1440px;
+    height: 533px;
+    background-image: url(../Images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 90px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+}
+.join-title{
+    font-family: Noto serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 586px;
+    text-align: center;
+    align-items: center;
+    justify-self:center;
+}
+.join-box{
+    width: 644px;
+    height: 50px;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-primary-1{
+    background-color: #E95A08;
+    width: 186px;
+    height: 55px;
+     border: none;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+   }
+   /* footer style */
 
-
-
-
+   .footer-section{
+    width: 1440px;
+    margin: 0 auto;
+  }
+   .footer-container{
+    display: flex;
+    width: 1120px;
+    height: 248px;
+    justify-content: center;
+    align-items: center; 
+    padding: 160px 50px;
+    margin-left: 50px;
+    margin-top: -100px;
+   
+   }
+ 
+  .footer-content p{
+          font-family: inter;
+          font-size: 22px;
+          color:#8987A1;
+          width: 359px;
+          height: 81px;
+  }
+  .footer-link{
+     text-decoration: none ;
+  }
+  .footer-item{
+    list-style: none;
+    margin:30px;
+  }
+  .footer-icon{
+    width: 216px;
+    height: 36px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 180px;
+    margin-left: 10px;
+    
+   
+  }
+  .icon-twitter{
+    width: 36px;
+    height: 36px;
+  }
 
 
 
@@ -308,12 +419,78 @@
     font-size: 16px;
 }
 /* plants-lover-section-responsive */
-.plant-lover-image{
+.image-1{
     width: 358px;
     height: 396px;
+    margin-top: -160px;
 }
-
-
-
+.image-2{
+    display: none;
+}
+.plants-description{
+    width: 361px;
+    height: 648px;
+    margin-top: -70px;
+    
 
 }
+.plants-lover{
+    flex-direction: column;
+    
+
+}
+.plants-heading{
+    font-size: 24px;
+}
+ 
+.plant-list{
+    font-size: 14px;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: -30px;
+    width: 361px;
+    height: 51px;
+}
+/* deal section responsive */
+.deal-section{
+    width: 393px;
+    height: 117px;
+    gap: 16px;
+    margin-top: -70px; 
+}
+.deal-section p{
+font-size: 14px;
+width: 336px;
+height: 68px;
+}
+/* join section style */
+.join-section{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+  
+    
+}
+.join-content{
+    width: 400px;
+    height: 276px;
+    margin-top: -50px;
+    margin-left: -1px;
+}
+.join-title{
+  
+    font-size: 24px;
+}
+.join-box{
+    width: 200px;
+    font-size: 14px;
+}
+  
+.btn-primary-1{
+     font-size: 12px;
+    width: 103px;
+    height: 55px;
+}
+/* footer responsive */
+}
+   
